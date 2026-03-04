@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1201 PDF Sorter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="file-path">Loading...</div>
+    <div id="progress-container">
+      <div id="progress-bar-track">
+        <div id="progress-bar"></div>
+      </div>
+      <div id="progress-text"></div>
+    </div>
+    <button id="reset-btn" class="reset-btn">Reset All</button>
+  </header>
+
+  <main>
+    <div id="pdf-panel">
+      <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
+    </div>
+
+    <div id="controls-panel">
+
+      <div id="categories"></div>
+
+      <div id="side-buttons">
+        <button id="proponents-btn" class="side-btn proponents">Proponents</button>
+        <button id="opponents-btn" class="side-btn opponents">Opponents</button>
+      </div>
+
+      <!-- Destination queue -->
+      <div id="destinations-section" class="hidden">
+        <div id="destinations-header">Queued destinations:</div>
+        <ul id="destinations-list"></ul>
+      </div>
+
+      <!-- Action buttons -->
+      <div id="action-buttons">
+        <button id="copy-btn" class="copy-btn" disabled>Copy &amp; Next →</button>
+        <button id="skip-btn" class="skip-btn">Skip</button>
+      </div>
+
+      <!-- All done message (hidden until complete) -->
+      <div id="complete-msg" class="hidden">
+        <p>All documents have been reviewed.</p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Skipped files modal -->
+  <div id="skipped-modal" class="modal-overlay hidden">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Skipped Files</h3>
+        <button id="close-modal-btn">×</button>
+      </div>
+      <ul id="skipped-list"></ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

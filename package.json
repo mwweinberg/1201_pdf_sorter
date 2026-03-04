@@ -1,0 +1,12 @@
+{
+  "name": "1201-pdf-sorter",
+  "version": "1.0.0",
+  "description": "Tool for sorting 1201 proceeding PDFs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
