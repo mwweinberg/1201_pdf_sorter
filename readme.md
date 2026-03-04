@@ -60,7 +60,7 @@ I believe that the easiest way to do this will be to build some sort of javascri
     - Includes archiving, even by institutions like libraries
     - All "use DVD on linux" also go here
 - CP-automated
-    - in retrospect, this is probably the same as data_access
+    - in retrospect, this is probably the same as data_access so it has been removed. 
 - CP-data_access
     - includes access to data held in databases (like medical data)
     - also includes all data from medical devices (even though some of those petitions are framed as relating to literary works)

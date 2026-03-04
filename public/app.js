@@ -5,7 +5,6 @@ const CATEGORIES = [
   'AV-data_access',
   'AV-edu',
   'AV-shifting',
-  'CP-automated',
   'CP-data_access',
   'CP-diagnosis',
   'CP-jailbreaking',
