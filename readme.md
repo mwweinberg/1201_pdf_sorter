@@ -8,23 +8,23 @@ The goal of the project is to copy these documents into a new file structure.  T
 
 - each year represented in original_documents gets it own folder
 - within that year's folder there is a standard set of subfolders:
--- All-non-prohibited uses
--- AV-accessibility
--- AV-comment
--- AV-data_access
--- AV-edu
--- AV-shifting
--- CP-automated
--- CP-data_access
--- CP-diagnosis
--- CP-jailbreaking
--- CP-preservation
--- CP-security
--- CP-shifting
--- CP-unlocking
--- LW-accessibility
--- LW-data_access
--- LW-shifting
+    - All-non-prohibited uses
+    - AV-accessibility
+    - AV-comment
+    - AV-data_access
+    - AV-edu
+    - AV-shifting
+    - CP-automated
+    - CP-data_access
+    - CP-diagnosis
+    - CP-jailbreaking
+    - CP-preservation
+    - CP-security
+    - CP-shifting
+    - CP-unlocking
+    - LW-accessibility
+    - LW-data_access
+    - LW-shifting
 
 within each of these folders, there are two additional folders:
 - proponents
@@ -51,29 +51,30 @@ I believe that the easiest way to do this will be to build some sort of javascri
 - All-non-prohibited uses
 - AV-accessibility
 - AV-comment
+    - Commentary & noncommercial uses (beyond just shifting)
 - AV-data_access
 - AV-edu
 - AV-shifting
--- HDMI decryption is here because the reason to access is to do something else with the content
--- All general access to works comments go here because shifting is a catch-all way to describe using works
--- Includes archiving, even by institutions like libraries
--- All "use DVD on linux" also go here
+    - HDMI decryption is here because the reason to access is to do something else with the content
+    - All general access to works comments go here because shifting is a catch-all way to describe using works
+    - Includes archiving, even by institutions like libraries
+    - All "use DVD on linux" also go here
 - CP-automated
+    - in retrospect, this is probably the same as data_access
 - CP-data_access
--- includes access to data held in databases (like medical data)
--- also includes all data from medical devices (even though some of those petitions are framed as relating to literary works)
--- includes broad AI research access to CPs
-
+    - includes access to data held in databases (like medical data)
+    - also includes all data from medical devices (even though some of those petitions are framed as relating to literary works)
+    - includes broad AI research access to CPs
 - CP-diagnosis
--- This includes maintainence and repair
--- this includes investigating license violations
+    - This includes maintenance, repair, and interoperability 
+    - this includes investigating license violations
 - CP-jailbreaking
--- This includes 3D printer filament
+    - This includes 3D printer filament
 - CP-preservation
 - CP-security
 - CP-shifting
 - CP-unlocking
 - LW-accessibility
 - LW-data_access
--- this is data mining of texts
+    - this is data mining of texts
 - LW-shifting
